@@ -2020,14 +2020,14 @@
 			}
 
 		.image.avatar {
-			border-radius: 200%;
+			border-radius: 100%;
 			overflow: hidden;
 		}
 
 			.image.avatar img {
-				border-radius: 200%;
+				border-radius: 100%;
 				display: block;
-				width: 150%;
+				width: 100%;
 			}
 
 /* List */
