@@ -1,0 +1,31 @@
+<aside class="aside  typeset  aside--{{ include.align | default: 'left' }}">
+
+  {% if page.layout == "post" and page.title != "About" %}
+    <section class="section  section--related-posts">
+      {% include post-related.html %}
+    </section>
+
+  {% elsif page.layout == "page"%}
+    <section class="section  section--description">
+      <p>{{ site.description }}</p>
+      {% include figure.html image="/images/newprofilepic.png" alt="Image with just alt text" %}
+      {% include nav-social.html %}
+    </section>
+
+  {% elsif page.layout == "home" or page.layout == "blog" or page.title == "About"%}
+    <section class="section  section--description">
+      {% comment %} <h3 style="text-align: center">J KESHAV BHUPATHY VIGNESH</h3> {% endcomment %}
+      <p>{{ site.description }}</p>
+      {% include figure.html image="/images/newprofilepic.png" alt="Image with just alt text" %}
+      {% include nav-social.html %}
+    </section>
+
+  {% elsif page.layout == "categories" %}
+    <section class="section  section--category-index">
+      <h3>Index</h3>
+      {% include nav-categories.html %}
+    </section>
+
+  {% endif %}
+
+</aside>
