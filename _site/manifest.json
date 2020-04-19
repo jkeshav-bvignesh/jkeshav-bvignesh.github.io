@@ -1,0 +1,9 @@
+{
+  "lang": "en-US",
+  "name": "Keshav's Blog",
+  "short_name": "Keshav'sBlog",
+  "theme_color": "#24292e",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "display": "standalone"
+}
