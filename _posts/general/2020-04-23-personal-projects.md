@@ -33,7 +33,7 @@ any location
 {% include figure.html image="/images/tamil.jpg" alt="Image with just alt text" %}
 _Tools Used: Python, TensorFlow, JQuery, Bootstrap, Flask_
 
-An interactive website wherein the user can write characters of the Tamil language. The website gives the recognition probabilities based on the character they have written using convolutional neural networks. The website can also be used to gather more training data from people who know the language</p>
+An interactive website wherein the user can write characters of the Tamil language. The website gives the recognition probabilities based on the character they have written using convolutional neural networks. The website can also be used to gather more training data from people who know the language
 
 #### A game theoretical approach to solve Network Congestion
 {% include figure.html image="/images/network.jpg" alt="Image with just alt text" %}
