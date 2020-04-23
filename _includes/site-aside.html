@@ -1,0 +1,31 @@
+<aside class="aside  typeset  aside--{{ include.align | default: 'right' }}">
+
+  {% if page.layout == "post" and page.title != "About" %}
+    <section class="section  section--related-posts">
+      {% include post-related.html %}
+    </section>
+
+  {% elsif page.layout == "page"%}
+    <section class="section  section--description">
+      <p> Welcome to my blog! A place where I rant about cool stuff in tech. <a href="/About/">More about me</a></p>
+      {% include figure.html image="/images/newprofilepic.png" alt="Image with just alt text" %}
+      {% include nav-social.html %}
+    </section>
+
+  {% elsif page.layout == "home"%}
+    <section class="section  section--description">
+      {% comment %} <h3 style="text-align: center">J KESHAV BHUPATHY VIGNESH</h3> {% endcomment %}
+      {% include figure.html image="/images/newprofilepic.png" alt="Image with just alt text" %}
+      <p> You can get in touch with me in any of the below platforms</p>
+      {% include nav-social.html %}
+    </section>
+
+  {% elsif page.layout == "categories" or page.layout == "blog"%}
+    <section class="section  section--category-index">
+      <h3>Index</h3>
+      {% include nav-categories.html %}
+    </section>
+
+  {% endif %}
+
+</aside>
