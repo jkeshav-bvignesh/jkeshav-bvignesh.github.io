@@ -15,9 +15,9 @@ You can find the code for most of these works and many others over at [my github
 
 {% include figure.html image="/images/phones.jpg" alt="Pic of the Chessboard" %}
 
->_"Why don't we make [wizard's chess]("https://youtu.be/IwjZ1J2b8UY?t=24")?"_
+>_"Why don't we make [wizard's chess](https://youtu.be/IwjZ1J2b8UY?t=24)?"_
 
-A project that shares two of my passions - Films and Software - it involved designing a cost effective prototype for a chessboard that the user can play against. I was lucky to have 2 friends who shared the vision. We wanted to replicate the magic of wizard chess - so, no nasty visible contraptions that can ruin the feel of the game for a player. This ended up being our capstone project and we documented the process [here]("https://vitcapstoneproject.wordpress.com/)
+A project that shares two of my passions - Films and Software - it involved designing a cost effective prototype for a chessboard that the user can play against. I was lucky to have 2 friends who shared the vision. We wanted to replicate the magic of wizard chess - so, no nasty visible contraptions that can ruin the feel of the game for a player. This ended up being our capstone project and we documented the process [here](https://vitcapstoneproject.wordpress.com/)
 
 While we didn't quite achieve everything we set out to do, we still managed to create a working prototype. This is one project that I want to revisit now and see how it can be improved. As the original website was a day to day tracker, it would be hard to follow and I might do a easier to read version here.
 
