@@ -43,3 +43,13 @@ plugins:
 - jekyll-feed
 - jemoji
 - jekyll-remote-theme
+- jekyll-archives
+
+
+jekyll-archives:
+  enabled:
+    - categories
+  layout: blog
+  permalinks:
+    category: '/category/:name/'
+  
