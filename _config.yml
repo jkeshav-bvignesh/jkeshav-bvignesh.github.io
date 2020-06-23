@@ -49,7 +49,7 @@ plugins:
 jekyll-archives:
   enabled:
     - categories
-  layout: blog
+  layout: archives
   permalinks:
     category: '/category/:name/'
   
