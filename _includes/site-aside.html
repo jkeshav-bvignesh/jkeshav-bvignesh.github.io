@@ -1,8 +1,16 @@
 <aside class="aside  typeset  aside--{{ include.align | default: 'right' }}">
 
   {% if page.layout == "post" and page.title != "About" %}
+    <section class="section  section--description">
+      
+    </section>
     <section class="section  section--related-posts">
-      {% include post-related.html %}
+    <i> If you found the content useful, do share </i>
+    {% include nav-share.html %}
+    
+    <i> In case you have any feedback or comments, do get in touch! </i>
+    {% include nav-social.html %}
+      {% comment %} {% include post-related.html %} {% endcomment %}
     </section>
 
   {% elsif page.layout == "page"%}
@@ -22,7 +30,7 @@
 
   {% elsif page.layout == "categories" or page.layout == "blog"%}
     <section class="section  section--category-index">
-      <h3>Index</h3>
+      <h3>Archives</h3>
       {% include nav-categories.html %}
     </section>
 

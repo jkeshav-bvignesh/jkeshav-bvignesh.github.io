@@ -31,7 +31,6 @@ social_links:
   LinkedIn: https://www.linkedin.com/in/jkeshav-bvignesh
   GitHub: https://github.com/jkeshav-bvignesh
   facebook: https://www.facebook.com/people/Keshav-Vignesh/100005469136863
-  Instagram: https://www.instagram.com/keshavvignesh/
 
 plugins:
 - jekyll-sitemap
@@ -43,3 +42,8 @@ plugins:
 - jekyll-feed
 - jemoji
 - jekyll-remote-theme
+
+sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
+  Twitter: "#0d94e7"
+  facebook: "#3B5998"
+  Email: true
