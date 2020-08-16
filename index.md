@@ -21,4 +21,4 @@ I primarily code in Python, while also developing some components in Java and C+
 I am a hobbyist magician and perform occasionally. I am also an avid cinephile and love watching & discussing films and tv shows. I also make short films once in a while.
 
 ### A Request
-The site itself is being constantly updated with features and sections. If you find any usability issues or any problem in general, do get in touch or raise an [issue on Github](https://github.com/jkeshav-bvignesh/jkeshav-bvignesh.github.io/issues). It would be greatly helpful!
+The site itself is being constantly updated with features and sections. If you find any usability issues or any problems in general, do get in touch or raise an [issue on Github](https://github.com/jkeshav-bvignesh/jkeshav-bvignesh.github.io/issues). It would be greatly helpful!
