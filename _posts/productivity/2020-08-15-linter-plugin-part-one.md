@@ -26,7 +26,7 @@ That's it! You can test out the installation by running the below command:
 python3 -m pylint <filename>
 ```
 #### The Basics
-Before we write a custom plugin, it's important to understand how Pylint works. How does Pylint understand the code structure? For most of it's checks pylint does this using a concept called Abstract Syntax Tree (AST). The plugins we write will be based on this.
+Before we write a custom plugin, it's important to understand how Pylint works. How does Pylint understand the code structure? For most of it's checks pylint does this using a concept called Abstract Syntax Tree (AST). Pylint can also use the Raw filestream or a tokenised version of the source code to do it's checks. I will focus on the AST checks for now.
 
 An AST basically, scans your code and generates a tree where each node holds a small bit of the code. There is another tree in code analysis that does almost the same thing - the Parse tree. Both the trees are used in the lexical analysis phase of code compilation. I am not going to go into lexical analysis in detail as a complete understanding is not required to get started. The lexical analyser checks the semantic correctness of your code. It checks your syntax and whether it matches the rules of your language's grammar. This is where a parse tree and an abstract syntax tree differ. A parse tree will contain a lot more syntax information than an AST. In the lexical analysis process, an AST is derived from the Parse tree. But, we don't have to implement an Abstract Syntax tree from scratch to write a plugin. Most of the work is already done. We will understand more about the AST as we go through the implementation.
 
