@@ -29,7 +29,7 @@ This is the simple solution and it can be achieved by adding the package name to
 
 ###### 2. Ignoring specific patterns and functions
 While whitelisting works, you sometimes would need finer control over what is checked and what is not. Pylint allows you do this aswell. You can ignore:
-<ul style="margin-left: 60px">
+<ul style="margin-left: 40px">
    <li> Variable names</li>
    <li> Function names</li>
    <li> Module names</li>
