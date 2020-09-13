@@ -3,7 +3,7 @@ title: Welcome!
 feature_text: |
   ## J. Keshav Bhupathy Vignesh
   Developer. Designer. Python. Microservices. ROS
-feature_image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Night_Sky_Stars_Trees_03.jpg/800px-Night_Sky_Stars_Trees_03.jpg"
+feature_image: "/images/396538.jpg"
 excerpt: "About me"
 layout: home
 aside: true

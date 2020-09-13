@@ -2,7 +2,7 @@
 title: Personal Projects
 categories:
 - General
-feature_image: "https://picsum.photos/2560/600?image=872"
+feature_image: "/images/396538.jpg"
 layout: post
 aside: false
 ---
