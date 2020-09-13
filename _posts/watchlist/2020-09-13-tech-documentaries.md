@@ -1,7 +1,7 @@
 ---
 title: Tech documentaries
 categories:
-- watchlist
+- Watchlist
 layout: post
 aside: false
 excerpt: Some interesting content to watch, while also briefly looking at how tech is represented and why that approach is taken.
