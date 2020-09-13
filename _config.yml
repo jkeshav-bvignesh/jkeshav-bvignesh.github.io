@@ -2,7 +2,7 @@ remote_theme: daviddarnes/alembic
 
 title: Keshav Bhupathy Vignesh
 description: Developer. Designer. Python. ROS
-logo: /images/logo.png
+logo: /images/logo_dark.png
 url: https://www.keshavvignesh.com
 permalink: /:title/
 
