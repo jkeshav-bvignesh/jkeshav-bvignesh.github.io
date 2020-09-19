@@ -3,7 +3,7 @@ title: Tech documentaries
 categories:
 - Watchlist
 layout: post
-aside: false
+aside: true
 excerpt: Some interesting content to watch, while also briefly looking at how tech is represented and why that approach is taken.
 ---
 This week I chanced upon the new Netflix documentary - [The Social Dilemma](https://www.netflix.com/in/title/81254224). This documentary talks about how (quoting the tagline here) _the technology that connects us, also controls us_. For me personally, It's always interesting to watch any content that is focused on software. You know, being in the field and all...
