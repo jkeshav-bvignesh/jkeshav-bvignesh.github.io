@@ -3,11 +3,7 @@
   {% if page.layout == "post" and page.title != "About" %}
     
     <section class="section  section--related-posts">
-    <hr>
-    <h4>Subscribe to the Blog!</h4>
-    <p>Want to get notified about the latest updates?</p>
-    Fill out this <a href="https://forms.gle/noqpoTg8g83W1GRp9">simple form!</a> 
-    <hr>
+    {% include subscribe.html %}
     <i> If you found the content useful, do share </i>
     {% include nav-share.html %}
     
@@ -21,10 +17,7 @@
       <p> Welcome to my blog! A place where I rant about cool stuff in tech. <a href="/About/">More about me</a></p>
       {% include figure.html image="/images/newprofilepic.png" alt="Image with just alt text" %}
       {% include nav-social.html %}
-
-      <h4>Subscribe to the Blog!</h4>
-    <p>Want to get notified about the latest updates?</p>
-    Fill out this <a href="https://forms.gle/noqpoTg8g83W1GRp9">simple form!</a> 
+      {% include subscribe.html %}
     </section>
 
   {% elsif page.layout == "home"%}
@@ -37,13 +30,9 @@
 
   {% elsif page.layout == "categories" or page.layout == "blog"%}
     <section class="section  section--category-index">
+      {% include subscribe.html %}
       <h3>Archives</h3>
       {% include nav-categories.html %}
-       <hr>
-        <h4>Subscribe to the Blog!</h4>
-        <p>Want to get notified about the latest updates?</p>
-        Fill out this <a href="https://forms.gle/noqpoTg8g83W1GRp9">simple form!</a> 
-
     </section>
    
   {% endif %}
