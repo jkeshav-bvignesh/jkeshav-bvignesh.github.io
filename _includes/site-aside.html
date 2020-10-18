@@ -1,16 +1,19 @@
 <aside class="aside  typeset  aside--{{ include.align | default: 'right' }}">
 
   {% if page.layout == "post" and page.title != "About" %}
-    <section class="section  section--description">
-      
-    </section>
+    
     <section class="section  section--related-posts">
+    <hr>
+    <h4>Subscribe to the Blog!</h4>
+    <p>Want to get notified about the latest updates?</p>
+    Fill out this <a href="https://forms.gle/noqpoTg8g83W1GRp9">simple form!</a> 
+    <hr>
     <i> If you found the content useful, do share </i>
     {% include nav-share.html %}
     
     <i> In case you have any feedback or comments, do get in touch! </i>
     {% include nav-social.html %}
-      {% include post-related.html %}
+    {% include post-related.html %}
     </section>
 
   {% elsif page.layout == "page"%}
@@ -18,6 +21,10 @@
       <p> Welcome to my blog! A place where I rant about cool stuff in tech. <a href="/About/">More about me</a></p>
       {% include figure.html image="/images/newprofilepic.png" alt="Image with just alt text" %}
       {% include nav-social.html %}
+
+      <h4>Subscribe to the Blog!</h4>
+    <p>Want to get notified about the latest updates?</p>
+    Fill out this <a href="https://forms.gle/noqpoTg8g83W1GRp9">simple form!</a> 
     </section>
 
   {% elsif page.layout == "home"%}
@@ -32,8 +39,13 @@
     <section class="section  section--category-index">
       <h3>Archives</h3>
       {% include nav-categories.html %}
-    </section>
+       <hr>
+        <h4>Subscribe to the Blog!</h4>
+        <p>Want to get notified about the latest updates?</p>
+        Fill out this <a href="https://forms.gle/noqpoTg8g83W1GRp9">simple form!</a> 
 
+    </section>
+   
   {% endif %}
 
 </aside>
