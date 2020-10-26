@@ -1,6 +1,6 @@
 {% if post.categories %}
   {% capture categories %}
-    {% for category in post.categories %}<a href="/blog/{{ item | first | slugify | downcase }}"
+    {% for category in post.categories %}
       <span class="label  label--category"><a href="{{ site.baseurl }}/blog/{{ category | slugify | downcase }}">{{ category }}</a></span>{% if forloop.last == false %},{% endif %}
     {% endfor %}
   {% endcapture %}
