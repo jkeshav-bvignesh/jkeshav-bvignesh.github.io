@@ -11,6 +11,13 @@ You can find the code for most of these works and many others over at [my github
 
 <!-- more -->
 
+#### This Website
+This website is currently my most important personal project. I have been meaning to start a blog for a while. But after trying out some popular blogging services, I decided to stick with Jekyll + Github Pages. 
+
+My work is equally distributed in both writing content as well as designing the look & feel of the site. Github takes care of the hosting. Frequent visitors of the website might have noticed that the website has been changing gradually. 
+
+You can always let me know if there is something that requires my immediate attention with regards to the usability of this site. It will be greatly helpful :smiley:
+
 #### AI Powered Chessboard
 
 {% include figure.html image="/images/phones.jpg" alt="Pic of the Chessboard" %}
