@@ -7,6 +7,9 @@ aside: true
 excerpt: 
 ---
 In my [last post](/jwt-intro) we had looked at how JWTs can be used in OAuth 2.0. Here we will look at the flows in OAuth 2.0 and the the proposed changes in Oauth 2.1 draft.
+<!--more-->
+
+> Similar to the previous post, this post is also targeted at complete beginners. I wanted to just introduce the concepts to people who are not familiar with Authentication / Authorization flows. I have glossed over certain topics and linked to detailed resources to avoid duplication. I recommend reading [OAuth 2.0 Simplified by Aaron Parecki](https://aaronparecki.com/oauth-2-simplified/) once you have read this post for more details. 
 
 ### The OAuth2 Flows
 When OAuth2 was introduced, it proposed 4 recommended flows as part of the specification.
