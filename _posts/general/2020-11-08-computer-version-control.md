@@ -105,7 +105,7 @@ But the catch is you loose certain metadata. One important aspect of these confi
 
 Some of the things I described earlier, such as app installs and configs, are actually stored in this directory. Version Controlling this directory would solve the problem to an extent. But there are some complexities to those installs, that I felt that a shell script was still required.
 
-### Is it really worth it?
+## Is it really worth it?
 It is a lot more work, no doubt about that. It can also feel a bit extreme, for a personal system. But the most important point is that, like everything with version control, it is a **_one time setup._** The benefits of setting up something like this is many-fold. You are in-effect creating snapshots of your system, but, these snapshots are lightweight, more flexible and easily maintainable.
 
 And most importantly, once we start doing it on our personal system and experience the benefits, it will become a habit. Pretty soon, we will see how this can be applied at other places, like at work. Think about a version controlled server with custom configurations. Would it be helpful? I think so.
