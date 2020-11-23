@@ -4,7 +4,7 @@ title: Keshav Bhupathy Vignesh
 description: Developer. Designer. Python. ROS
 logo: /images/logo_dark.png
 url: https://www.keshavvignesh.com
-permalink: /:title/
+permalink: /blog/:title/
 
 paginate: 3 
 paginate_path: /blog/:num
