@@ -55,5 +55,3 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
   180: '/assets/logos/favicon-32x32.png'
   192: '/assets/logos/android-chrome-192x192.png'
   512: '/assets/logos/android-chrome-512x512.png'
-
-google_analytics: 'G-0YJJ8P7J97'
