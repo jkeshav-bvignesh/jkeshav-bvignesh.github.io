@@ -1,0 +1,1 @@
+<a class="button" {% if include.color %} style="background: {{ include.color }}"{% endif %} onclick="prompt('Copy the {{include.id}} link to clipboard','{{include.link}}')">{{ include.text | default: "Button" }}{% if include.icon %}&nbsp; {% include icon.html id=include.icon title=include.icon %}{% endif %}</a>
