@@ -3,7 +3,6 @@
   {% if page.layout == "post" and page.title != "About" %}
     
     <section class="section  section--related-posts">
-    {% include subscribe.html %}
     <p><i> If you found the content useful, do share </i></p>
     {% assign url = site.url | append: site.baseurl | append: page.url %}
     {% include copy-button.html text="Copy Link" icon="link" id="blogpost" link=url %}
