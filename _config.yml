@@ -6,6 +6,10 @@ logo: /images/logo_dark.png
 url: https://www.keshavvignesh.com
 permalink: /blog/:title/
 
+# Disqus Comments
+disqus: keshavvignesh
+
+# Pagination
 paginate: 5
 paginate_path: /blog/:num
 # Site navigation
