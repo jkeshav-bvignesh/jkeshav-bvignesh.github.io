@@ -12,6 +12,20 @@ disqus: keshavvignesh
 # Pagination
 paginate: 5
 paginate_path: /blog/:num
+
+jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
+twitter:
+  username: jkeshavbvignesh # jekyll-seo-tag > Owners twitter username
+author: keshavvignesh # jekyll-seo-tag > default author
+social: # jekyll-seo-tag > social overrides
+  name: J Keshav Bhupathy Vignesh # jekyll-seo-tag > real name
+  links:  # jekyll-seo-tag > social aliases (sameAs)
+    - https://twitter.com/jkeshavbvignesh
+    - https://www.facebook.com/people/Keshav-Vignesh/100005469136863
+    - https://www.linkedin.com/in/jkeshav-bvignesh
+    - https://github.com/jkeshav-bvignesh
+email: "jkeshav.bvignesh@gmail.com"
+
 # Site navigation
 navigation_header:
 - title: Home
