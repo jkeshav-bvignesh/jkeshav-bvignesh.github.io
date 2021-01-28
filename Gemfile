@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# gem "alembic-jekyll-theme"
+gem "alembic-jekyll-theme"
 
 # gem "github-pages", group: :jekyll_plugins
 gem "jekyll", "~> 3.8"
@@ -12,4 +12,4 @@ gem "jekyll-redirect-from", "~> 0.12"
 gem "jekyll-default-layout", "~> 0.1"
 gem "jekyll-feed", "~> 0.9"
 gem "jemoji", "~> 0.9"
-gem "jekyll-remote-theme", "~> 0.3"
+# gem "jekyll-remote-theme", "~> 0.3"

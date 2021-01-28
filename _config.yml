@@ -1,5 +1,5 @@
-remote_theme: daviddarnes/alembic
-
+# remote_theme: daviddarnes/alembic
+theme: alembic-jekyll-theme
 title: Keshav Bhupathy Vignesh
 description: Developer. Designer. Python. ROS
 logo: /images/logo_dark.png
@@ -56,7 +56,7 @@ plugins:
 - jekyll-default-layout
 - jekyll-feed
 - jemoji
-- jekyll-remote-theme
+# - jekyll-remote-theme
 
 sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
   Twitter: "#0d94e7"
