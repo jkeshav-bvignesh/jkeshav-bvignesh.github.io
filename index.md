@@ -10,7 +10,7 @@ aside: true
 ---
 A Software Engineer and Roboticist by profession, I have been primarily involved in building Intelligent & Autonomous Collaborative Robotics systems (static and mobile manipulators, drones) and its associated Microservices, System and Web-apps.
 
-My experience ranges from designing the State Machines that control the individual robots and simulations at a micro level to working on the system and Microservices architecture to Orchestration at a high level.
+My experience ranges from designing the State Machines/Behavior trees that control the individual robots and simulations at a micro level to working on the system and Microservices architecture to Orchestration at a high level.
 
 Robotics has given me the opportunity to apply my knowledge in the fields of Graphics, AI, System/Web dev and Game design. This field is a culmination of many computer science disciplines and I have been fortunate enough to work on most. If you look more closely, you realise that Robotics is essentially real world gaming as there is a significant overlap of concepts!
 
